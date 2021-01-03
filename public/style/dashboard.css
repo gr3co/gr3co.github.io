@@ -1,0 +1,41 @@
+/* 
+ * The CSS for my dashboard homepage (https://sgre.co/dashboard)
+ *
+ * (c) 2015 Stephen Greco (stephen@sgre.co)
+ */
+
+@import url(//fonts.googleapis.com/css?family=Luckiest+Guy);
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#main {
+  background-color:transparent;
+  text-align:center;
+  vertical-align:middle !important;
+  width:300px;
+  line-height: 50px;
+  position:absolute;
+  margin:auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#copyright {
+  position:fixed;
+  bottom:0px;
+  height:20px;
+  width:100%;
+  left:0px;
+  font-family:monospace;
+  text-align:center;
+}
+
+#main h1, #main h2 {
+  font-family: 'Luckiest Guy', cursive;
+  display:inline-block !important;
+  margin:0px 0px 0px 0px;
+}

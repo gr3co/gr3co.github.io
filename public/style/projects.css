@@ -1,0 +1,51 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,800);
+html { position: relative; min-height: 100%; }
+
+body { font-family: "Open Sans", tahoma, sans-serif; background: #f0f0f0; color: #000011; font-size: 1.5em; margin: 0; margin-bottom: 40px; }
+
+h1 { font-size: 1.8em; margin-top: 0px; }
+
+a { color: #000011; font-weight: 800; text-decoration: none; }
+
+a:hover { color: #000088; }
+
+ul, li { list-style-type: none; padding: 0px 0px; margin: 0px 0px; }
+
+#body { width: 100%; height: 100%; margin: 20px 0px 50px 0px; text-align: center; }
+
+#main { text-align: left; display: inline-block; height: auto; vertical-align: middle; }
+
+#copyright { background-color: transparent; position: absolute; bottom: 0px; height: 30px; line-height: 30px; width: 100%; font-family: monospace; text-align: center; font-size: 0.75em !important; }
+
+nav { text-align: center; height: 96px; line-height: 96px; margin: auto; max-width: 740px; padding: 0 20px; }
+nav ul { padding: 0px; margin: 0px; }
+nav li { display: inline-block; text-align: center; font-size: 24px; margin-left: 8px; margin-right: 8px; }
+
+#main-left { float: left; padding-right: 10px; }
+
+#main-right { float: right; padding-left: 10px; }
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px), only screen and (max-width: 480px) { nav { line-height: 30px; }
+  [class*='col-'] { display: inline-block; float: none; }
+  #body { margin-top: 0px; font-size: 0.8em; }
+  h1 { font-size: 1.6em !important; margin-top: 0px; }
+  #main { text-align: center; }
+  #main-left { display: none; }
+  #updated { display: none; } }
+#projects { display: inline-block; height: auto; vertical-align: middle; }
+
+.project-img { height: 300px; margin: 5px; }
+
+[class*='col-'] { float: left; }
+
+.col-2-3 { width: 66.67%; }
+
+.col-1-3 { width: 33.33%; }
+
+.grid:after { content: ""; display: table; clear: both; }
+
+#body { margin-top: 0px; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px), only screen and (max-width: 480px) { .project-img { height: 200px; } }
